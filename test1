@@ -1,0 +1,11 @@
+Package sel1;
+Public class A {
+Public static void main ( string arg[ ] ) {
+System.setproperty("webdriver.Chrome.driver".D:\\Chromedriver.exe");
+ChromeDriver driver = new ChromeDriver ( );
+driver.get ("https:www.btartisticyoga.com");
+driver.findElement(By.id ( "login")).sendkeys
+("testbtartisticyoga.com");
+driver.findElement ( By.id("signIn")).click();
+}
+}
